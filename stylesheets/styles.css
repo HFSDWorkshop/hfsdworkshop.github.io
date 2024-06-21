@@ -2,7 +2,7 @@ body {
   background-color: #fff;
   padding:50px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color:#595959;
+  color:#646464;
   font-weight:400;
 }
 
@@ -21,6 +21,12 @@ ol > li::marker {
 
 dl > dt {
   font-weight: 500;
+  font-size: 16px;
+}
+
+dl > dd {
+  font-size: 13px;
+  font-weight: 400;
 }
 
 p, ul, ol, table, pre, dl {
@@ -34,6 +40,12 @@ h1, h2, h3 {
 header h1 {
   font-size: 32px;
   font-weight: 600;
+}
+
+#subtitle {
+  color:#222;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 h1 {
@@ -134,11 +146,11 @@ header ul {
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:230px;
+  width:270px;
 }
 
 header li {
-  width:114px;
+  width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
