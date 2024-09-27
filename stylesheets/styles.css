@@ -150,7 +150,7 @@ header ul {
 }
 
 header li {
-  width:166px;
+  width:124px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
@@ -187,9 +187,9 @@ strong {
   font-weight:500;
 }
 
-header ul li + li + li {
+header ul li + li + li + li {
   border-right:none;
-  width:166px;
+  width:124px;
 }
 
 header ul a strong {
@@ -285,8 +285,8 @@ footer {
     width:99%;
   }
 
-  header li, header ul li + li + li {
-    width:33%;
+  header li, header ul li + li + li + li{
+    width:24.5%;
   }
 }
 
