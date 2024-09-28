@@ -189,7 +189,7 @@ strong {
 
 header ul li + li + li + li {
   border-right:none;
-  width:124px;
+  width:80px;
 }
 
 header ul a strong {
@@ -286,7 +286,7 @@ footer {
   }
 
   header li, header ul li + li + li + li{
-    width:24.5%;
+    width:24%;
   }
 }
 
