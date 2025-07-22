@@ -96,7 +96,8 @@ a:hover small {
   padding-top: 48px;
   padding-left: 16px;
   padding-right: 16px;
-  width:860px;
+  width: 100%;
+  max-width: 860px;
   margin:0 auto;
 }
 
