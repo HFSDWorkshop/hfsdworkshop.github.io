@@ -4,6 +4,11 @@ body {
   font-weight:400;
 }
 
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 #home {
   color: white;
 }
@@ -91,11 +96,11 @@ a:hover small {
 }
 
 .wrapper {
-  padding-top: 48px;
-  padding-left: 16px;
-  padding-right: 16px;
-  width: 100%;
-  max-width: 860px;
+  max-width: 800px;
+  margin: 30px auto 0;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
 }
 
 blockquote {
@@ -242,11 +247,6 @@ footer {
 }
 
 @media print, screen and (max-width: 99999999960px) {
-
-  div.wrapper {
-    width:auto;
-    margin:0;
-  }
 
   header, section, footer {
     float:none;
