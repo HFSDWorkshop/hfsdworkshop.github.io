@@ -4,6 +4,10 @@ body {
   font-weight:400;
 }
 
+.navbar {
+  background-color: #5387BD !important;
+}
+
 .container {
   margin: 0 !important;
   padding: 0 !important;
