@@ -4,29 +4,15 @@ body {
   font-weight:400;
 }
 
-.navbar {
-  background-color: #5387BD !important;
-}
-
 .container {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-.accordion-button:not(.collapsed) {
-  background-color: #fff !important; /* or your preferred color */
-  color: inherit !important;         /* or set a specific color */
-  box-shadow: none;                  /* optional: remove shadow */
+.navbar {
+  background-color: #394267 !important;
 }
 
-.accordion-body {
-  padding: 0 !important;
-  padding-top: 10px !important
-}
-
-.accordion-button {
-  padding-left: 0 !important;
-}
 
 #home {
   color: white;
@@ -34,17 +20,13 @@ body {
 
 .nav-item.active .nav-link,
 .nav-link.active {
-  color: #000000 !important;
+  color: #fff !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
 }
-
-/* b {
-  color:#222;
-} */
 
 ol > li::marker {
   font-weight: bold;
@@ -256,6 +238,10 @@ hr {
   background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
+}
+
+.portrait {
+  width: 300px;
 }
 
 footer {
